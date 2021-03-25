@@ -5,8 +5,8 @@ import sys
 
 EPS = 1e-10
 if __name__ == '__main__':
-    x = int(input("Введите x "))
-    n = int(input('Введите n'))
+    x = int(input("Введите x -->"))
+    n = int(input('Введите n -->'))
     if x == 0:
         print("Неверное значение х", file=sys.stderr)
         exit(1)
